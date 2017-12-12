@@ -1,0 +1,7 @@
+com/uptake/core/tests/AgriPageNavigationTest.class
+com/uptake/core/base/UptakeDriver.class
+com/uptake/core/base/UptakePage.class
+com/uptake/core/base/UptakeTest.class
+com/uptake/core/base/Utils.class
+com/uptake/core/base/UptakeBrowser.class
+com/uptake/core/pages/AgriNavigationPage.class

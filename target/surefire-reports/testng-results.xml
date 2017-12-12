@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Running test case- verifyPageNavigationTest on Safari]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://www.uptake.com/]]>
+    </line>
+    <line>
+      <![CDATA[verifying home page url]]>
+    </line>
+    <line>
+      <![CDATA[verifying if uptake title is existed]]>
+    </line>
+    <line>
+      <![CDATA[Agriculture link ]]>
+    </line>
+    <line>
+      <![CDATA[verifying if Agriculture picture is existed]]>
+    </line>
+    <line>
+      <![CDATA[verifying agriculture page url :https://www.uptake.com/industries/agriculture]]>
+    </line>
+    <line>
+      <![CDATA[verifying agriculture page url]]>
+    </line>
+    <line>
+      <![CDATA[clicking on Uptake Header to go back to home page]]>
+    </line>
+    <line>
+      <![CDATA[verifying if Uptake Header to go back to home page is existed]]>
+    </line>
+    <line>
+      <![CDATA[verifying if Uptake Home page viewport is existed]]>
+    </line>
+    <line>
+      <![CDATA[verifying home page url]]>
+    </line>
+    <line>
+      <![CDATA[closing driver]]>
+    </line>
+    <line>
+      <![CDATA[finish.run= LOCAL]]>
+    </line>
+    <line>
+      <![CDATA[removing driver from threadlocal]]>
+    </line>
+  </reporter-output>
+  <suite name="UpWork" duration-ms="10012" started-at="2017-12-12T21:50:45Z" finished-at="2017-12-12T21:50:55Z">
+    <groups>
+      <group name="pagenavigation">
+        <method signature="AgriPageNavigationTest.verifyPageNavigationTest(java.lang.String)[pri:0, instance:com.uptake.core.tests.AgriPageNavigationTest@a67c67e]" name="verifyPageNavigationTest" class="com.uptake.core.tests.AgriPageNavigationTest"/>
+      </group> <!-- pagenavigation -->
+    </groups>
+    <test name="Safari" duration-ms="10012" started-at="2017-12-12T21:50:45Z" finished-at="2017-12-12T21:50:55Z">
+      <class name="com.uptake.core.tests.AgriPageNavigationTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.uptake.core.tests.AgriPageNavigationTest@a67c67e]" name="setUp" is-config="true" duration-ms="3405" started-at="2017-12-12T15:50:45Z" finished-at="2017-12-12T15:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@382db087]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.uptake.core.tests.AgriPageNavigationTest.verifyPageNavigationTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Running test case- verifyPageNavigationTest on Safari]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageNavigationTest(java.lang.String)[pri:0, instance:com.uptake.core.tests.AgriPageNavigationTest@a67c67e]" name="verifyPageNavigationTest" duration-ms="6465" started-at="2017-12-12T15:50:49Z" description="Verify if page is navigating to Agricutlute and back to Home Page properly" data-provider="urls" finished-at="2017-12-12T15:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.uptake.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[URL: https://www.uptake.com/]]>
+            </line>
+            <line>
+              <![CDATA[verifying home page url]]>
+            </line>
+            <line>
+              <![CDATA[verifying if uptake title is existed]]>
+            </line>
+            <line>
+              <![CDATA[Agriculture link ]]>
+            </line>
+            <line>
+              <![CDATA[verifying if Agriculture picture is existed]]>
+            </line>
+            <line>
+              <![CDATA[verifying agriculture page url :https://www.uptake.com/industries/agriculture]]>
+            </line>
+            <line>
+              <![CDATA[verifying agriculture page url]]>
+            </line>
+            <line>
+              <![CDATA[clicking on Uptake Header to go back to home page]]>
+            </line>
+            <line>
+              <![CDATA[verifying if Uptake Header to go back to home page is existed]]>
+            </line>
+            <line>
+              <![CDATA[verifying if Uptake Home page viewport is existed]]>
+            </line>
+            <line>
+              <![CDATA[verifying home page url]]>
+            </line>
+            <line>
+              <![CDATA[closing driver]]>
+            </line>
+            <line>
+              <![CDATA[finish.run= LOCAL]]>
+            </line>
+            <line>
+              <![CDATA[removing driver from threadlocal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigationTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.uptake.core.tests.AgriPageNavigationTest@a67c67e]" name="tearDown" is-config="true" duration-ms="132" started-at="2017-12-12T15:50:55Z" finished-at="2017-12-12T15:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@382db087]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyPageNavigationTest status=SUCCESS method=AgriPageNavigationTest.verifyPageNavigationTest(java.lang.String)[pri:0, instance:com.uptake.core.tests.AgriPageNavigationTest@a67c67e] output=URL: https://www.uptake.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uptake.core.tests.AgriPageNavigationTest -->
+    </test> <!-- Safari -->
+  </suite> <!-- UpWork -->
+</testng-results>

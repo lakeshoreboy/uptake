@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UpWork" parallel="methods" thread-count="5">
+	    
+	    <listeners>
+	        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		</listeners>
+
+		
+		<!-- SAFARI MAC --> 
+		<test name="Safari" preserve-order="true">
+			<parameter name="selenium.run"  value="LOCAL"/>
+			<parameter name="selenium.browser"  value="CHROME"/>
+			<parameter name="selenium.version"  value="3.3"/>
+			<parameter name="selenium.platform"  value="MAC"/>
+
+
+			<packages>
+				<package name="com.uptake.core.tests"/>
+			</packages>
+
+
+			<classes>
+				<class name="com.uptake.core.tests.AgriPageNavigationTest">
+					<methods>
+						<include name="verifyPageNavigationTest" />
+					</methods>
+				</class>
+			</classes>
+
+			 
+		</test> 
+		
+
+</suite>
