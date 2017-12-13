@@ -1,6 +1,10 @@
 package com.uptake.core.base;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
@@ -59,7 +63,13 @@ public WebDriver getDriver(){
 
     public void setDriverImplicityTimeout(int seconds)
     {
-        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+
+        WebDriverWait wait = new WebDriverWait(UptakeDriver.getInstance().getDriver(), 30);
+        JavascriptExecutor jsExecutor =  (JavascriptExecutor)UptakeDriver.getInstance().getDriver() ;
+
+     String readyState =  jsExecutor.executeScript("return document.readyState").toString();
+
+        Assert.assertEquals("complete",readyState,"browser is not in ready state");
     }
 
     /**
